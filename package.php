@@ -76,6 +76,13 @@ $package->addMaintainer(
     'nick@silverorange.com'
 );
 
+$package->addMaintainer(
+    'lead',
+    'nrf',
+    'Nathan Fredrickson',
+    'nathan@silverorange.com'
+);
+
 $package->setPhpDep('5.2.0');
 /*
 $package->addExtensionDep('required', 'php_zip');
